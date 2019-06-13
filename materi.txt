@@ -1,0 +1,13 @@
+Programming Techniques
+
+1.	Introduction to the basic principles of programming practice: testing, debugging, portability, performance, design alternatives, and style. 
+2. Application in a variety of programming languages, programming environments, and operating systems. 
+3. Introduction to tools used in the software development process for improving program functionality, performance, and robustness.
+
+1. programming paradigms
+2. software testing
+3. software design
+4. programming model
+5. configuration management
+6. logging & measuring software performance
+7. software robustness
