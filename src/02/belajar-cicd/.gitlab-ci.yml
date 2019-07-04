@@ -1,0 +1,17 @@
+stages:
+  - testing
+  - deployment
+
+unit-testing:
+  stage: testing
+  image: python:3-alpine
+  script:
+    - python -m unittest discover
+
+deploy:
+  stage: deployment
+  image: python:3-alpine
+  only:
+    - /^release-.*$/
+  script:
+    - python hello.py

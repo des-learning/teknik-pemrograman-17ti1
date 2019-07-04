@@ -1,0 +1,12 @@
+INFO:root:Start menghitung total belanja
+INFO:root:menghitung subtotal Buku
+WARNING:root:skip {'harga': 5000, 'nama': 'Buku', 'qty': '30'} karena ada error
+INFO:root:menghitung subtotal Pena
+INFO:root:menghitung subtotal Spidol
+INFO:root:Selesai menghitung total belanja
+INFO:root:Start menghitung total belanja
+INFO:root:menghitung subtotal Buku
+WARNING:root:skip {'harga': 5000, 'nama': 'Buku', 'qty': '30'} karena ada error
+INFO:root:menghitung subtotal Pena
+INFO:root:menghitung subtotal Spidol
+INFO:root:Selesai menghitung total belanja
