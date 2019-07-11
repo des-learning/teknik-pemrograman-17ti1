@@ -1,0 +1,12 @@
+1. create new project (new git repository)
+2. initialize dependency manager pada directory project
+    kalau pakai python
+        pipenv install <nama-package>
+        pipenv shell -> untuk mengaktifkan virtual environment
+3. coding project
+4. create new heroku app
+    heroku apps:create
+5. create Procfile untuk heroku, isinya perintah untuk menjalankan aplikasi web. contoh untuk main nya di app.py
+    web: python app.py
+6. create runtime.txt yang isinya platform bahasa yang akan digunakan, misalnya python-3.7.3
+7. create .gitlab-ci.yml yang berisikan definisi pipeline untuk melakukan deploy ke heroku, jangan lupa tambahkan variable HEROKU_API_KEY dan HEROKU_APP_NAME (dari langkah 4) di gitlab ci variable
