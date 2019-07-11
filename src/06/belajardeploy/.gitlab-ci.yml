@@ -1,0 +1,12 @@
+stages:
+  - deploy
+
+deploy-to-heroku:
+  stage: deploy
+  script:
+    - apt-get update -qy
+    - apt-get install -y ruby-dev
+    - gem install dpl
+    - dpl --provider=heroku --api-key=$HEROKU_API_KEY --app=$HEROKU_APP_NAME
+  only:
+    - tags
