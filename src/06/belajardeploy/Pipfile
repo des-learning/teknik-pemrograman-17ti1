@@ -7,6 +7,7 @@ verify_ssl = true
 
 [packages]
 flask = "*"
+prometheus-flask-exporter = "*"
 
 [requires]
 python_version = "3.6"

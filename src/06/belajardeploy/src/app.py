@@ -1,7 +1,11 @@
 from flask import Flask
+from prometheus_flask_exporter import PrometheusMetrics
 import os
 
 app = Flask(__name__)
+metrics = PrometheusMetrics(app)
+
+metrics.info('app_info', 'Teknik Pemrograman', version='0.0.1')
 
 @app.route('/')
 def index():
